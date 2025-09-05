@@ -60,3 +60,10 @@ footer {
 footer small {
   color: #555;
 }
+
+.card-img-top {
+  height: 180px;
+  object-fit: cover;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+}
