@@ -1,0 +1,62 @@
+/* styles.css */
+
+/* Fuente moderna y colores base */
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background: #f8f9fb;
+  color: #333;
+}
+
+/* Navbar */
+.navbar {
+  background: linear-gradient(90deg, #1a73e8, #0d47a1);
+}
+
+.navbar-brand {
+  font-weight: bold;
+  letter-spacing: 0.5px;
+}
+
+/* Títulos principales */
+h1, h2, h3, h4, h5 {
+  color: #0d47a1;
+}
+
+/* Estilo para las tarjetas */
+.card {
+  border: none;
+  border-radius: 15px;
+  transition: transform 0.2s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+}
+
+.card-title {
+  color: #1a73e8;
+  font-weight: 600;
+}
+
+.card-text {
+  font-size: 0.95rem;
+  line-height: 1.5;
+  color: #555;
+}
+
+/* Badge */
+.badge {
+  font-size: 0.85rem;
+  padding: 0.5em 0.8em;
+  border-radius: 20px;
+}
+
+/* Footer */
+footer {
+  background-color: #f1f3f6;
+}
+
+footer small {
+  color: #555;
+}
